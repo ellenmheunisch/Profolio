@@ -1,0 +1,80 @@
+body{
+    background-color: rgb(3, 53, 3);
+    color: #fff;
+font-family: 'EB Garamond', serif;
+margin: 0;
+font-size: larger;
+}
+h1, h2{
+    color: #d9ba6c;
+}
+header{
+    background-image:url(Images/skiing.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 1rem;
+    padding-top: 3rem;
+}
+nav>a{
+    color:#032e15;
+    border: 1px solid rgb(247, 103, 20);
+    text-decoration: none;
+    padding: 1rem;
+    font-weight: 1000;
+    display: inline-block;
+    margin: 1rem 1rem 1rem 0;
+    background-color: rgb(247, 103, 20);
+}
+nav>a:hover{
+    
+    border: 1px solid chartreuse;
+    background-color: fuchsia; 
+}
+
+.home header{
+    height: 100vh;
+}
+.about h1{
+     background-color: rgb(247, 103, 20);
+    color: #fff;
+font-family: 'EB Garamond', serif;
+margin: 0 auto 1rem;
+font-size: 3rem;
+ background-position: center;
+ width: 20rem;
+ text-align: center;
+}
+.about div{
+display: inline-block;
+width: 60%;
+vertical-align: top;
+}
+.about .images{
+    width: 35%;
+}
+.about{
+    padding: 1rem;
+}
+img{
+    max-width: 100%;
+}
+.courses div{
+    padding: 1rem;
+    background-color: #f8c182;
+    margin-bottom: 3rem;
+}
+.courses h2{
+    color: #02351b;
+}
+.resume{
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+.contact h2{
+    color: #fff;
+}
+li a{
+    color: rgb(247, 103, 20);
+}
